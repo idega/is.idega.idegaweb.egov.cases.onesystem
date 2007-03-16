@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projectDescription>
+  <name>is.idega.idegaweb.egov.cases.onesystem</name>
+  <comment>
+  </comment>
+  <projects>
+    <project>is.idega.idegaweb.egov.cases</project>
+    <project>is.idega.idegaweb.egov.application</project>
+    <project>com.idega.block.school</project>
+    <project>se.idega.idegaweb.commune.care</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+      <arguments>
+      </arguments>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

@@ -1,0 +1,15 @@
+<document>
+	<properties>
+		<title>Cases onesystem changes</title>
+		<author email="palli@idega.com">Pall Helgason</author>
+	</properties>
+
+	<body>
+		<release version="1.0.1" date="2007-03-16">
+			<action dev="palli" type="update">
+				Moving OneSystem classes to new bundle from
+				is.idega.idegaweb.egov.cases
+			</action>
+		</release>
+	</body>
+</document>
