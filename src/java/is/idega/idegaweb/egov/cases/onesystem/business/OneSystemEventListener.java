@@ -1,7 +1,7 @@
 package is.idega.idegaweb.egov.cases.onesystem.business;
 
 import is.idega.idegaweb.egov.cases.data.GeneralCase;
-import se.idega.idegaweb.commune.care.data.ChildCareApplication;
+import is.idega.idegaweb.egov.childcare.data.ChildCareChoice;
 
 import com.idega.block.process.business.CaseChangeEvent;
 import com.idega.block.process.business.CaseChangeListener;
@@ -17,16 +17,17 @@ public class OneSystemEventListener implements CaseChangeListener {
 		if (theCase instanceof GeneralCase) {
 			GeneralCase genCase = (GeneralCase) theCase;
 			bean.setGeneralCase(genCase);
-			
-		} else if (theCase instanceof ChildCareApplication) {
-			ChildCareApplication application = (ChildCareApplication) theCase;
+
+		}
+		else if (theCase instanceof ChildCareChoice) {
+			ChildCareChoice application = (ChildCareChoice) theCase;
 			bean.setChildCareApplication(application);
 		}
-		
+
 		Thread thread = new Thread(bean);
 		thread.setName("OneSystemSenderBean");
 		thread.start();
-		
+
 		return null;
 	}
 

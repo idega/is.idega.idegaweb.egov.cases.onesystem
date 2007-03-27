@@ -5,7 +5,7 @@
   <pomVersion>3</pomVersion>
   <name>eGov Cases Onesystem connection</name>
   <artifactId>is.idega.idegaweb.egov.cases.onesystem</artifactId>
-  <currentVersion>1.0.1</currentVersion>
+  <currentVersion>1.0.2</currentVersion>
   <inceptionYear>2007</inceptionYear>
   <shortDescription>eGov Onesystem Cases</shortDescription>
   <versions>
@@ -13,6 +13,11 @@
       <id>1.0.1</id>
       <name>1.0.1</name>
       <tag>EGOV_CASES_BIZTALK_1_0_1</tag>
+    </version>
+    <version>
+      <id>1.0.2</id>
+      <name>1.0.2</name>
+      <tag>EGOV_CASES_BIZTALK_1_0_2</tag>
     </version>
   </versions>
   <branches/>
@@ -36,7 +41,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.egov.cases</artifactId>
-      <version>1.0.26</version>
+      <version>1.0.27</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>
@@ -71,16 +76,6 @@
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.school</artifactId>
       <version>3.1.11</version>
-      <type>jar</type>
-      <url>http://www.idega.com/</url>
-      <properties>
-        <eclipse.dependency>true</eclipse.dependency>
-      </properties>
-    </dependency>
-    <dependency>
-      <groupId>bundles</groupId>
-      <artifactId>se.idega.idegaweb.commune.care</artifactId>
-      <version>1.0.2</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>

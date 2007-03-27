@@ -5,6 +5,12 @@
 	</properties>
 
 	<body>
+		<release version="1.0.2" date="2007-03-27">
+			<action dev="laddi" type="update">
+				Refactoring/Elimination of se bundles.
+			</action>
+		</release>
+
 		<release version="1.0.1" date="2007-03-16">
 			<action dev="palli" type="update">
 				Moving OneSystem classes to new bundle from
