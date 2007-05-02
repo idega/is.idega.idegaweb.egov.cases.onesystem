@@ -4,7 +4,7 @@
     <key>
       <name>iw_bundle_identifier</name>
       <type>java.lang.String</type>
-      <value>is.idega.idegaweb.egov.cases</value>
+      <value>is.idega.idegaweb.egov.cases.onesystem</value>
     </key>
   </map>
 </pxml>

@@ -5,6 +5,12 @@
 	</properties>
 
 	<body>
+		<release version="1.0.4" date="2007-05-02">
+			<action dev="palli" type="fix">
+				The bundle was set to cases and not cases.onesystem.
+			</action>
+		</release>
+
 		<release version="1.0.3" date="2007-04-30">
 			<action dev="laddi" type="update">
 				Updating dependencies.
