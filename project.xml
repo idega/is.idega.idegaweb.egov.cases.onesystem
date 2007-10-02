@@ -44,14 +44,14 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.core</artifactId>
-      <version>3.1.39</version>
+      <version>3.1.65</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.egov.cases</artifactId>
-      <version>1.0.27</version>
+      <version>1.0.29</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>
@@ -61,14 +61,14 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.family</artifactId>
-      <version>1.0.3</version>
+      <version>1.0.5</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.egov.application</artifactId>
-      <version>1.0.11</version>
+      <version>1.0.14</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>
@@ -78,14 +78,14 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.process</artifactId>
-      <version>3.1.11</version>
+      <version>3.1.14</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.school</artifactId>
-      <version>3.1.13</version>
+      <version>3.1.15</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>
@@ -95,7 +95,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.egov.childcare</artifactId>
-      <version>1.0.16</version>
+      <version>1.0.19</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>
